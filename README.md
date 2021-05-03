@@ -7,7 +7,7 @@ Clean Architecture Solution Template for ASP.NET Core 5.0. Built with Onion/Hexa
 - ASP.NET Core 5.0 MVC
 - Entity Framework Core 5.0
 
-# Prerequisites
+## Prerequisites
 
 -   Make sure you are running on the latest .NET 5 SDK (SDK 5.0 and above only). [Get the latest one here.](https://dotnet.microsoft.com/download/dotnet/5.0)
 
@@ -18,6 +18,21 @@ Clean Architecture Solution Template for ASP.NET Core 5.0. Built with Onion/Hexa
     ```.NET Core CLI
     dotnet tool install --global dotnet-ef
     ```
+
+## How To Run
+- Once the Packages are done restoring, open up the appsettings.json of both the API and MVC Projects. Make sure that you add in valid Connection strings here. Currently it looks like this-
+  ```.NET Core CLI
+    "ConnectionStrings": {
+    "ApplicationConnection": "Data Source=localhost;Initial Catalog=CQRSandMediatRinOnionArchitecture;Integrated Security=True;MultipleActiveResultSets=True",
+    "IdentityConnection": "Data Source=localhost;Initial Catalog=CQRSandMediatRinOnionArchitecture;Integrated Security=True;MultipleActiveResultSets=True"
+  }
+  ```
+- Go to menu ```Tools > NuGet Package Manager > Package Manager Console```. Set the Startup project as the API or Web Project (which you want to run). Set the Default Project as the Infrastructure project. Run the following commands.
+  ```.NET Core CLI
+  update-database -context IdentityContext
+  update-database -context ApplicationDbContext
+  ```
+- If you still face issues, please visit the link- [Getting Started - Quick Start Guide](https://codewithmukesh.com/blog/aspnet-core-hero-boilerplate-quick-start-guide/)
 
 ## Capabilities Included
 
