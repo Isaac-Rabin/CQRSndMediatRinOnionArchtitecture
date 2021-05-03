@@ -20,7 +20,7 @@ Clean Architecture Solution Template for ASP.NET Core 5.0. Built with Onion/Hexa
     ```
 
 ## How To Run
-- Once the Packages are done restoring, open up the appsettings.json of both the API and MVC Projects. Make sure that you add in valid Connection strings here. Currently it looks like this-
+- Once the Packages are done restoring, open up the appsettings.json of both the API and MVC Projects. Make sure that you add in valid Connection strings here. Currently it looks like following-
   ```.NET Core CLI
     "ConnectionStrings": {
     "ApplicationConnection": "Data Source=localhost;Initial Catalog=CQRSandMediatRinOnionArchitecture;Integrated Security=True;MultipleActiveResultSets=True",
