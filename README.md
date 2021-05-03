@@ -27,7 +27,7 @@ Clean Architecture Solution Template for ASP.NET Core 5.0. Built with Onion/Hexa
     "IdentityConnection": "Data Source=localhost;Initial Catalog=CQRSandMediatRinOnionArchitecture;Integrated Security=True;MultipleActiveResultSets=True"
   }
   ```
-- Go to menu ```Tools > NuGet Package Manager > Package Manager Console```. Set the Startup project as the API or Web Project (which you want to run). Set the Default Project as the Infrastructure project. Run the following commands.
+- Go to menu ```Tools > NuGet Package Manager > Package Manager Console```. From the Package Manager Console window set the Startup project as the API or Web Project (which you want to run). Set the Default Project as the Infrastructure project. Run the following commands.
   ```.NET Core CLI
   update-database -context IdentityContext
   update-database -context ApplicationDbContext
