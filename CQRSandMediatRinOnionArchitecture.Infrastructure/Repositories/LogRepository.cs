@@ -1,4 +1,4 @@
-﻿using CQRSandMediatRinOnionArchitecture.Application.DTOs;
+﻿using CQRSandMediatRinOnionArchitecture.Application.DTOs.Logs;
 using CQRSandMediatRinOnionArchitecture.Application.Interfaces.Repositories;
 using CQRSandMediatRinOnionArchitecture.Application.Interfaces.Shared;
 using AspNetCoreHero.EntityFrameworkCore.AuditTrail.Models;

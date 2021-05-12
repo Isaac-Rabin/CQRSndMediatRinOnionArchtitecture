@@ -1,4 +1,4 @@
-﻿using CQRSandMediatRinOnionArchitecture.Application.DTOs;
+﻿using CQRSandMediatRinOnionArchitecture.Application.DTOs.Logs;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

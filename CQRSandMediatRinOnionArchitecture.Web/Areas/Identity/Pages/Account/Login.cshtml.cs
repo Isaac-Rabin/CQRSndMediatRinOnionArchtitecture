@@ -1,4 +1,4 @@
-﻿using CQRSandMediatRinOnionArchitecture.Application.Features.ActivityLog.Commands.AddLog;
+﻿using CQRSandMediatRinOnionArchitecture.Application.Features.Logs.Commands.AddActivityLog;
 using CQRSandMediatRinOnionArchitecture.Infrastructure.Identity.Models;
 using CQRSandMediatRinOnionArchitecture.Web.Abstractions;
 using MediatR;

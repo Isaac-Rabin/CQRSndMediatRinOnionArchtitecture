@@ -1,5 +1,5 @@
-using CQRSandMediatRinOnionArchitecture.Application.DTOs;
-using CQRSandMediatRinOnionArchitecture.Application.Features.ActivityLog.Queries.GetUserLogs;
+using CQRSandMediatRinOnionArchitecture.Application.Features.Logs.Queries.GetCurrentUserLogs;
+using CQRSandMediatRinOnionArchitecture.Application.DTOs.Logs;
 using CQRSandMediatRinOnionArchitecture.Application.Interfaces.Shared;
 using CQRSandMediatRinOnionArchitecture.Web.Abstractions;
 using MediatR;
